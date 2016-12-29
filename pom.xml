@@ -10,8 +10,8 @@
 	
 <scm>
 			<url>https://github.com/dasireddy4/ims</url>
-			<connection>scm:git:https://username:password@github.com/dasireddy4/ims.git</connection>
-			<developerConnection>scm:git:https://username:password@github.com/dasireddy4/ims.git</developerConnection>
+			<connection>scm:git:https://github.com/dasireddy4/ims.git</connection>
+			<developerConnection>scm:git:https://github.com/dasireddy4/ims.git</developerConnection>
   </scm>
 	  
   
@@ -34,12 +34,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8082/nexus/content/repositories/releases/</url>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8082/nexus/content/repositories/snapshots/</url>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement> 
 	
